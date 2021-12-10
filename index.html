@@ -75,7 +75,8 @@ https://templatemo.com/tm-565-onix-digital -->
               <!-- <li class="scroll-to-section"><a href="#portfolio">Portfolio</a></li>
               <li class="scroll-to-section"><a href="#video">Videos</a></li>  -->
               <li class="scroll-to-section"><a href="#contact">Contact Us</a></li> 
-              <li class="scroll-to-section"><div class="main-red-button-hover"><a target="new" href="https://wa.me/6283805555280">Contact Us Now</a></div></li> 
+              <li class="scroll-to-section"><div class="main-red-button-hover"><button type="button" id="form-submit" onclick="toWA()" style="background-color: #1DACE2;color:white;border-radius: 1.1em;padding: 8px 20px;border: none;font-weight: 400;">Contact Us Now</button></div></li> 
+              <!-- <li class="scroll-to-section"><div class="main-red-button-hover"><a target="new" href="https://wa.me/6283805555280">Contact Us Now</a></div></li> -->
             </ul>        
             <a class='menu-trigger'>
                 <span>Menu</span>
@@ -105,7 +106,7 @@ https://templatemo.com/tm-565-onix-digital -->
                       <a href="#contact">Message Us Now</a>
                     </div>
                     <div class="call-button">
-                      <a target="new" href="https://wa.me/6283805555280"><i class="fa fa-phone"></i>0838-0555-5280</a>
+                      <a target="new" href="#"><i class="fa fa-phone"></i>0838-0555-5280</a>
                     </div>
                   </div>
                 </div>
@@ -648,7 +649,7 @@ https://templatemo.com/tm-565-onix-digital -->
               <iframe src="https://maps.google.com/maps?q=malang&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="360px" frameborder="0" style="border:0" allowfullscreen=""></iframe>
             </div>
             <div class="info">
-              <span><i class="fa fa-phone"></i> <a target="new" href="https://wa.me/6283805555280" style="margin-top: 10px;">0838-0555-5280</a></span>
+              <span><i class="fa fa-phone"></i> <a href="#" style="margin-top: 10px;">0838-0555-5280</a></span>
               <span><i class="fa fa-envelope"></i> <a href="#" style="margin-top: 10px;">inlab.company@gmail.com</a></span>
             </div>
           </div>
@@ -780,9 +781,10 @@ https://templatemo.com/tm-565-onix-digital -->
   <script src="assets/js/custom.js"></script>
 
   <script>
-    //function toWA(params) {
-      //window.open("https://api.whatsapp.com/send?phone=6283805555280&text=nama%3A"+$('#name').val()+"%20%0Asurname%3A"+$('#surname').val()+"%0Aemail%3A"+$('#email').val()+"%0Apesan%3A"+$('#pesan').val())
-    //}
+    function toWA() {
+      window.open("https://api.whatsapp.com/send?phone=6283805555280");
+      // window.open("https://api.whatsapp.com/send?phone=6283805555280&text=nama%3A"+$('#name').val()+"%20%0Asurname%3A"+$('#surname').val()+"%0Aemail%3A"+$('#email').val()+"%0Apesan%3A"+$('#pesan').val())
+    }
   // Acc
     $(document).on("click", ".naccs .menu div", function() {
       var numberIndex = $(this).index();
