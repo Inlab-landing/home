@@ -4,4 +4,4 @@ short link: bit.ly/inlab_landing
 
 feedback/google form: bit.ly/inlab_form
 
-QR code: https://raw.githubusercontent.com/Inlab-landing/home/main/assets/images/inlabQR.png
+QR code: https://bit.ly/inlab_landing_qr
