@@ -3,3 +3,4 @@ Allow: /home
 Disallow: /test
 
 Sitemap: https://inlab-landing.github.io/home/
+Sitemap: https://inlab-landing.github.io/home/index.html
